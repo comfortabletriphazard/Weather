@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7809D6284D394E00DE7148 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7809D5284D394E00DE7148 /* DetailView.swift */; };
 		2FAA7284284D040000B358C5 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA7283284D040000B358C5 /* WeatherApp.swift */; };
 		2FAA7286284D040000B358C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA7285284D040000B358C5 /* ContentView.swift */; };
 		2FAA7288284D040200B358C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAA7287284D040200B358C5 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F7809D5284D394E00DE7148 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		2FAA7280284D040000B358C5 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FAA7283284D040000B358C5 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		2FAA7285284D040000B358C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				2FAA7283284D040000B358C5 /* WeatherApp.swift */,
 				2FAA7285284D040000B358C5 /* ContentView.swift */,
 				2FAA7291284D049100B358C5 /* DataModel.swift */,
+				2F7809D5284D394E00DE7148 /* DetailView.swift */,
 				2FAA7287284D040200B358C5 /* Assets.xcassets */,
 				2FAA7289284D040200B358C5 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FAA7286284D040000B358C5 /* ContentView.swift in Sources */,
+				2F7809D6284D394E00DE7148 /* DetailView.swift in Sources */,
 				2FAA7284284D040000B358C5 /* WeatherApp.swift in Sources */,
 				2FAA7292284D049100B358C5 /* DataModel.swift in Sources */,
 			);

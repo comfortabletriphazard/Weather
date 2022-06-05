@@ -16,7 +16,8 @@ struct ContentView: View {
                     Image(systemName: object.icon)
                     Text("\(object.high)ºC")
                         .foregroundColor(Color.blue)
-                    Text("\(object.day)")
+                    NavigationLink(object.day, destination: DetailView(data: object))
+                    //Navigation Link makes the arrows beside each list item to a new view
                 }
             }
             .navigationTitle("Gold Coast")
