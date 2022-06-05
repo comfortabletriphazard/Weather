@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView { //View that controls other views
+            List(DataModel.data, id: \.self) {
+                object in
+                HStack {
+                    Image(systemName: object.icon)
+                    Text("\(object.high)ºC")
+                        .foregroundColor(Color.blue)
+                    Text("\(object.day)")
+                }
+            }
+            .navigationTitle("Gold Coast")
+            
+        }
     }
 }
 
